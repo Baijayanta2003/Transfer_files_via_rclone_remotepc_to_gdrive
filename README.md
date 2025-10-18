@@ -77,8 +77,25 @@ If your device is mac as in my case, run:
 ```bash
 curl https://rclone.org/install.sh | sudo bash
 ```
+After the installation is complete, to verify run : 
 
-To verifty
+```bash
+rclone --version
+```
+You will see something like this : 
+```bash
+rclone v1.71.1
+- os/version: darwin 26.0.1 (64 bit)
+- os/kernel: 25.0.0 (arm64)
+- os/type: darwin
+- os/arch: arm64 (ARMv8 compatible)
+- go/version: go1.25.1
+- go/linking: dynamic
+- go/tags: cmount
+```
+If your rclone version older than v1.62 then update it via : 
 
-
+```bash
+curl https://rclone.org/install.sh | sudo bash
+```
 
