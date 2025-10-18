@@ -299,6 +299,18 @@ I will give *full access (1st option)* , choose your option accordingly.
 ```bash
 scope> 1
 ```
+After this:
+```bash
+Option service_account_file.
+Service Account Credentials JSON file path.
+Leave blank normally.
+Needed only if you want use SA instead of interactive login.
+Leading `~` will be expanded in the file name as will environment variables such as `${RCLONE_CONFIG_DIR}`.
+Enter a value. Press Enter to leave empty.
+service_account_file>
+```
+Press **Enter**. It will pop up
+
 
 
 
