@@ -53,6 +53,12 @@ This method enables seamless data transfer:
 
 ## 1. Install rclone
 
+Before this first verify that **rclone** is installed or not. Run - 
+
+```bash
+rclone
+```
+
 ```bash
 sudo apt install rclone
 ```
