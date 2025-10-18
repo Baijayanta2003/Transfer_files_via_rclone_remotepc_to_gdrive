@@ -250,5 +250,56 @@ Choose a number from below, or type in your own value.
    \ (premiumizeme)
 63 / seafile
    \ (seafile)
+
 ```
 Find the option *Google Drive*, In my case it is **22** and enter the corresponding number according to your rclone version.
+```bash
+Storage> 22
+```
+```bash
+Option client_id.
+Google Application Client Id
+Setting your own is recommended.
+See https://rclone.org/drive/#making-your-own-client-id for how to create your own.
+If you leave this blank, it will use an internal key which is low performance.
+Enter a value. Press Enter to leave empty.
+client_id>
+```
+Press **Enter** and after : 
+```bash
+Option client_secret.
+OAuth Client Secret.
+Leave blank normally.
+Enter a value. Press Enter to leave empty.
+client_secret>
+```
+Press **Enter** and after this it will request permision of google drive.
+```bash
+Option scope.
+Comma separated list of scopes that rclone should use when requesting access from drive.
+Choose a number from below, or type in your own value.
+Press Enter to leave empty.
+ 1 / Full access all files, excluding Application Data Folder.
+   \ (drive)
+ 2 / Read-only access to file metadata and file contents.
+   \ (drive.readonly)
+   / Access to files created by rclone only.
+ 3 | These are visible in the drive website.
+   | File authorization is revoked when the user deauthorizes the app.
+   \ (drive.file)
+   / Allows read and write access to the Application Data folder.
+ 4 | This is not visible in the drive website.
+   \ (drive.appfolder)
+   / Allows read-only access to file metadata but
+ 5 | does not allow any access to read or download file content.
+   \ (drive.metadata.readonly)
+scope>
+```
+I will give *full access (1st option)* , choose your option accordingly.
+```bash
+scope> 1
+```
+
+
+
+
