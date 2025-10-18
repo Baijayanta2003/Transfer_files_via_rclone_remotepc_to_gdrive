@@ -49,6 +49,9 @@ This method enables seamless data transfer:
 * A **shared Google Drive** account or folder accessible to both parties.
 
 
+# rclone setup 
+
+## 1. Install rclone
 
 
 
