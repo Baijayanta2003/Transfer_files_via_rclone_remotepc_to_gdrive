@@ -58,6 +58,14 @@ Before this first verify that **rclone** is installed or not. Run -
 ```bash
 rclone
 ```
+If it's not there then it will show up something like this: 
+
+```bash
+Command 'rclone' not found, but can be installed with:
+sudo snap install rclone  # version 1.71.1, or
+sudo apt  install rclone  # version 1.60.1+dfsg-3ubuntu0.24.04.3
+See 'snap info rclone' for additional versions.
+```
 
 ```bash
 sudo apt install rclone
