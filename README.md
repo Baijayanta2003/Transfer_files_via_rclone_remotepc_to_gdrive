@@ -447,6 +447,9 @@ Elapsed time:         3.1s
 ```
 And job is done.
 
+For example I delete the file **1.py**  in my local/remote pc amd want to copy from my gdrive folder where I have uploaded before. Run : 
 
-
+```bash
+rclone copy  gdrive_baijayanta:/python_test/1.py ~/Downloads/ -P
+```
 
