@@ -99,3 +99,15 @@ If your rclone version older than v1.62 then update it via :
 curl https://rclone.org/install.sh | sudo bash
 ```
 ## 2.Configure rclone
+Run : 
+```bash
+rclone config
+```
+It will pop up something like this:
+```bash
+No remotes found, make a new one?
+n) New remote
+s) Set configuration password
+q) Quit config
+n/s/q> 
+```
