@@ -394,6 +394,14 @@ e/n/d/r/c/s/q> q
 ```
 And we have succesfully configured **rclone**.
 
+## 3.Upload files to google drive
+
+```bash
+rclone copy /path/to/data gdrive_baijayanta:/destination_folder -P
+```
+**-P* shows the progress of the transfer. Keep in mind **/path/to/data** is in local/remote pc and **destination_folder** is the folder you created in **google drive** beforehand. If they do not exist then It will throgh *ERROR*.
+
+
 
 
 
