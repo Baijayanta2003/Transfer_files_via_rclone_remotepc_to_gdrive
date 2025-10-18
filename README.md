@@ -27,12 +27,28 @@ In short, the challenge was:
 The solution is surprisingly simple and efficient — using **rclone**.
 
 
-## SOLUTION
+##  Solution
 
-- In his local pc B , he logs into the remote cluster C.
-- Using the rclone programme, he first configures the setup and links the common google drive to rclone so that he can upload the files directly to google drive from remote cluster C.
-- After the setup is done, He starts uploading the files to google drive direcly from the remote cluster C without downloading anything to his local pc B.
-- Once the upload is complete, I also configure the rclone programme in my local pc A and link it to the same google drive account.
-- After this I am done. I can directly copy files from the google drive to my local pc A.
+* On **PC B (collaborator’s local machine)**, he logs into the **remote cluster (C)**.
+* Using **rclone**, he configures a connection to our shared **Google Drive**.
+* Once setup is complete, he uploads the files **directly from the remote cluster (C)** to Google Drive —
+  no downloads to PC B are required.
+* After the upload finishes, I configure **rclone** on **PC A (my local machine)** and connect to the same Google Drive.
+* From there, I can **copy, sync, or download** the files directly to my local system.
+
+This method enables seamless data transfer:
+
+> **Remote Cluster → Google Drive → Local PC**,
+> without redundant data movement or bandwidth waste.
+
+
+##  Prerequisites
+
+* A working installation of **rclone** on all systems involved.
+* Access to the **remote cluster (via SSH)**.
+* A **shared Google Drive** account or folder accessible to both parties.
+
+
+
 
 
