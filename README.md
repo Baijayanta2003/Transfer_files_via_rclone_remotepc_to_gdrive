@@ -98,4 +98,4 @@ If your rclone version older than v1.62 then update it via :
 ```bash
 curl https://rclone.org/install.sh | sudo bash
 ```
-
+## 2.Configure rclone
