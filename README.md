@@ -66,7 +66,7 @@ sudo snap install rclone  # version 1.71.1, or
 sudo apt  install rclone  # version 1.60.1+dfsg-3ubuntu0.24.04.3
 See 'snap info rclone' for additional versions.
 ```
-
+Then install via the command:
 ```bash
 sudo apt install rclone
 ```
