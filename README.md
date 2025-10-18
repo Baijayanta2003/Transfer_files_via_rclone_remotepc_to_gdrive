@@ -53,5 +53,9 @@ This method enables seamless data transfer:
 
 ## 1. Install rclone
 
+```bash
+sudo apt install rclone
+```
+
 
 
