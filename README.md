@@ -310,6 +310,37 @@ Enter a value. Press Enter to leave empty.
 service_account_file>
 ```
 Press **Enter**. It will pop up
+```bash
+Edit advanced config?
+y) Yes
+n) No (default)
+y/n>
+```
+Enter *n*.
+```bash
+Use web browser to automatically authenticate rclone with remote?
+ * Say Y if the machine running rclone has a web browser you can use
+ * Say N if running rclone on a (remote) machine without web browser access
+If not sure try Y. If Y failed, try N.
+
+y) Yes (default)
+n) No
+y/n> 
+```
+Enter *n* again and it displays : 
+```bash
+Option config_token.
+For this to work, you will need rclone available on a machine that has
+a web browser available.
+For more help and alternate methods see: https://rclone.org/remote_setup/
+Execute the following on the machine with the web browser (same rclone
+version recommended):
+	rclone authorize "drive" "some alphanumeric text"
+Then paste the result.
+Enter a value.
+config_token>
+```
+
 
 
 
