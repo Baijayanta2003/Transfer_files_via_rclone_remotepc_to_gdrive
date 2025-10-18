@@ -410,3 +410,20 @@ rclone copy gdrive_baijayanta:/destination_folder /local/path -P
 ```
 
 
+## Advantages
+
+* No need to download files locally before uploading.
+* Saves bandwidth, time, and storage space.
+* Secure and scriptable using rclone.
+* Ideal for transferring **large scientific datasets** across continents.
+
+---
+
+## References
+
+* [rclone official documentation](https://rclone.org/)
+* [rclone Google Drive guide](https://rclone.org/drive/)
+
+
+
+
