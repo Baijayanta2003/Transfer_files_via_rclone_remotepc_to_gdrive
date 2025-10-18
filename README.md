@@ -53,9 +53,11 @@ This method enables seamless data transfer:
 
 ## 1. Install rclone
 
-```python
+```bash
 sudo apt install rclone
 ```
+
+To verifty
 
 
 
