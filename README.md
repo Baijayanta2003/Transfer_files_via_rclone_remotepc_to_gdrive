@@ -251,3 +251,4 @@ Choose a number from below, or type in your own value.
 63 / seafile
    \ (seafile)
 ```
+Find the option *Google Drive*, In my case it is **22** and enter the corresponding number according to your rclone version.
