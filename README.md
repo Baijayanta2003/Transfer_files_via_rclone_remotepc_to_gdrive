@@ -424,6 +424,29 @@ rclone copy gdrive_baijayanta:/destination_folder /local/path -P
 * [rclone official documentation](https://rclone.org/)
 * [rclone Google Drive guide](https://rclone.org/drive/)
 
+# Simple Example
+
+- I have a file named 1.py which contains the following script.
+```python
+#1.py
+# This is a simple .py file to print "Hello World"
+
+print("Hello World")
+```
+- The file is in **/Users/baijayantabhattacharyya/Downloads**.
+- Also I have created a folder in my google drive named **python_test**.
+- Run
+```bash
+rclone copy ~/Downloads/1.py  gdrive_baijayanta:/python_test -P
+```
+It will show : 
+```bash
+Transferred:   	         73 B / 73 B, 100%, 24 B/s, ETA 0s
+Transferred:            1 / 1, 100%
+Elapsed time:         3.1s
+```
+And job is done.
+
 
 
 
