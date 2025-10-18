@@ -4,24 +4,27 @@ A guide on transferring files from a remote PC to Google Drive using rclone—wi
 
 
 
-### Why This Repo?
 
-I’ve been thinking about this problem for quite some time.
-One of my collaborators has large radio astronomical data files that need to be transferred to me overseas.
+# Why This Repository?
 
-To set up the scenario:
+This repository addresses a practical problem I encountered while collaborating on a radio astronomy project.
 
-* I have a **local PC (A)**.
-* My collaborator, located overseas, has **another local PC (B)**.
-* He also has access to a **remote cluster/PC (C)** where all the data files are stored.
+One of my collaborators needed to transfer large radio astronomical data files to me overseas.
 
-He wants to send those files to me **without first downloading them to his local PC (B)**.
+Here’s the setup:
 
-So, the problem reduces to:
+* **PC A:** My local machine
+* **PC B:** My collaborator’s local machine (overseas)
+* **PC C:** A remote cluster/server where all the data files are stored
 
-> How can we transfer these large files efficiently and directly?
+The goal was to transfer the files from **PC C → Google Drive** (accessible to me)
+**without first downloading them to PC B (his local system).**
 
-The solution turns out to be quite straightforward...
+In short, the challenge was:
+
+> How to transfer large files efficiently from a remote system to Google Drive without local downloads?
+
+The solution is surprisingly simple and efficient — using **rclone**.
 
 
 ## SOLUTION
