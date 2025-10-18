@@ -340,8 +340,59 @@ Then paste the result.
 Enter a value.
 config_token>
 ```
+Go to any local machine and paste this into terminal ( whatever pops into your screen, the local pc must have **rclone** installed.)
+```bash
+rclone authorize "drive" "some alphanumeric text"
+```
+It will open up a browser page where you have to log into the google acoount you want to share and give access to *rclone* for further operations. Once you are done it will print success and there will be a code popped up in the terminal you have to copy and paste to **config_token** prompt and enter.
 
+After this
+```bash
+Configure this as a Shared Drive (Team Drive)?
 
+y) Yes
+n) No (default)
+y/n>
+```
+Press *n* and it will display : 
+```bash
+Configuration complete.
+Options:
+- type: drive
+- scope: drive
+- token: {"access_token":"}
+- team_drive: 
+Keep this "gdrive_baijayanta" remote?
+y) Yes this is OK (default)
+e) Edit this remote
+d) Delete this remote
+y/e/d>
+```
+Press *y*.
+```bash
+y/e/d> y
+```
+```bash
+Current remotes:
+
+Name                 Type
+====                 ====
+gdrive_baijayanta    drive
+
+e) Edit existing remote
+n) New remote
+d) Delete remote
+r) Rename remote
+c) Copy remote
+s) Set configuration password
+q) Quit config
+e/n/d/r/c/s/q>
+```
+Press *q*.
+```bash
+e/n/d/r/c/s/q> q
+```
+And we have succesfully configured **rclone**.
 
 
 
