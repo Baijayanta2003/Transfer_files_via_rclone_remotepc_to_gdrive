@@ -1,22 +1,8 @@
 
 
-# 🚀 Transfer Files via rclone
 
-<p style="font-family:'Georgia', serif; font-size:16px;">
-A guide on transferring files from a remote PC or cluster directly to Google Drive using rclone,
-without downloading them to your local system — fast, efficient, and simple.
-</p>
-
-## ⚙️ Steps
-<p style="font-family:'Courier New', monospace;">
-1. Install rclone<br>
-2. Configure remote<br>
-3. Upload from cluster to Google Drive
-</p>
-
-
-# rclone remote to gdrive transfer 
-A guide on transferring files from a remote PC to Google Drive using rclone—without downloading them locally, for fast and efficient transfers.
+# Transfer files from remote pc to google drive and vice-versa via rclone
+A guide on transferring files from a remote PC to Google Drive using rclone without downloading them locally, for fast and efficient transfers.
 
 # Why This Repository?
 
